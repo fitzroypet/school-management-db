@@ -15,29 +15,34 @@ This database schema provides a complete foundation for a B2B SaaS School Manage
 - Communication system
 - Reporting and analytics
 
-School_LLM/
-└── schema/
-├── 00_database_setup.sql # Initial setup and security
-├── 01_tenant.sql # Multi-tenant configuration
-├── 02_authentication.sql # User authentication & roles
-├── 03_academic_structure.sql # Academic year & class structure
-├── 04_people_management.sql # Students, teachers & parents
-├── 05_academic_operations.sql # Subjects & class operations
-├── 06_grading_assessment.sql # Assessment & grading system
-├── 07_financial_management.sql # Fees & payments
-├── 08_communication.sql # Notifications & messaging
-├── 09_api_integration.sql # External system integration
-├── 10_audit_logging.sql # System audit trails
-├── 11_performance_indexes.sql # Performance optimization
-├── 12_security_policies.sql # Security implementation
-├── 13_initial_data.sql # Seed data
-├── 14_core_views.sql # Essential database views
-├── 15_core_procedures.sql # Core business procedures
-├── 16_attendance_management.sql # Attendance tracking
-├── 17_report_cards.sql # Academic reporting
-├── 18_class_scheduling.sql # Class scheduling
-├── 19_data_validation.sql # Data integrity rules
-└── 20_reporting_procedures.sql # Business intelligence
+School_LLM Tree
+.
+├── LICENSE
+├── README.md
+└── School_LLM
+    └── schema
+        ├── 00_database_setup.sql
+        ├── 01_tenant.sql
+        ├── 02_authentication.sql
+        ├── 03_academic_structure.sql
+        ├── 04_people_management.sql
+        ├── 05_academic_operations.sql
+        ├── 06_grading_assessment.sql
+        ├── 07_financial_management.sql
+        ├── 08_communication.sql
+        ├── 09_api_integration.sql
+        ├── 10_audit_logging.sql
+        ├── 11_performance_indexes.sql
+        ├── 12_security_policies.sql
+        ├── 13_initial_data.sql
+        ├── 13_maintenance_procedures.sql
+        ├── 14_core_views.sql
+        ├── 15_core_procedures.sql
+        ├── 16_attendance_management.sql
+        ├── 17_report_cards.sql
+        ├── 18_class_scheduling.sql
+        ├── 19_data_validation.sql
+        └── 20_reporting_procedures.sql
 
 ## Key Features
 
