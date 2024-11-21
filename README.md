@@ -16,6 +16,7 @@ This database schema provides a complete foundation for a B2B SaaS School Manage
 - Reporting and analytics
 
 School_LLM Tree
+
 .
 ├── LICENSE
 ├── README.md
@@ -43,6 +44,8 @@ School_LLM Tree
         ├── 18_class_scheduling.sql
         ├── 19_data_validation.sql
         └── 20_reporting_procedures.sql
+
+
 
 ## Key Features
 
